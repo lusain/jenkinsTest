@@ -17,6 +17,7 @@
 - (void)viewDidLoad
 {
     [self.button setBackgroundColor:[UIColor redColor]];
+    [self.button setTitle:@"click!" forState:UIControlStateNormal];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
