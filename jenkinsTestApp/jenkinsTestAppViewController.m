@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad
 {
+    [self.button setBackgroundColor:[UIColor redColor]];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
